@@ -38,7 +38,7 @@ repository.
 5. In the order the files are listed above, work through the prompts, adding your code block under each prompt. Check each route as you complete them.
 6. Submit with a pull request on this repo.
 
-## Routing Table
+## Routing Table - Sample
 
 Update the below routing table with the routes
 
