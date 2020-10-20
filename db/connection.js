@@ -1,6 +1,8 @@
+require('dotenv').config();
+const { MONGODBURI } = process.env;
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/cookbooks_db', {
+mongoose.connect(MONGODBURI, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 	useFindAndModify: false,
