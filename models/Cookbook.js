@@ -7,11 +7,10 @@ const mongoose = require('../db/connection');
     yearPublished (integer),
 */
 const CookbookSchema = new mongoose.Schema({
-	title: { type: String, required: true },
-	yearPublished: { type: Number, required: true },
+	title: String,
+	yearPublished: Number,
 });
 
-const Cookbook = mongoose.model('Cookbook', CookbookSchema);
-
 //export model
+const Cookbook = mongoose.model('Cookbooks', CookbookSchema);
 module.exports = Cookbook;
